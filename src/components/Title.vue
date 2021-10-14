@@ -20,4 +20,10 @@ h1{
     font-family: 'Bungee Shade', cursive;
     max-height: 166px;
 }
+@media screen  and (min-width:1350px){
+    h1{
+ max-height: 100px;
+    }
+   
+}
 </style>

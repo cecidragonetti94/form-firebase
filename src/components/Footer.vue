@@ -38,7 +38,7 @@ footer{
 @media screen and (min-width:1650px){
 
 footer{
- max-height: 27px;
+ max-height: 50px;
 min-width: 1675px;
 }
 }

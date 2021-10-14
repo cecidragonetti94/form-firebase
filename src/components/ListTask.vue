@@ -62,7 +62,7 @@ td {
   font-weight: lighter;
 }
 th {
-  background-color: #42b983;
+  background-color: #b2c8f0;
   color: white;
 }
 tr:nth-child(even) {

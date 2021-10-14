@@ -68,18 +68,17 @@ export default {
 };
 </script>
 <style >
+
 .container-form {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   background-color: #eff4f8;
-  margin-left: 80px;
-  margin-right: 80px;
   border-radius: 10px;
-height: auto;
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  background-color: #fbc2eb;
 }
 
 form {
@@ -89,9 +88,24 @@ form {
   font-size: 20px;
 }
 .p-form {
-  margin-bottom: 30px;
+  
   font-size: 25px;
 }
+@media screen and (min-width: 1680px) {
+ .container-form{
+   max-height: 700px;
+   margin-top:90px;
+   margin-bottom: 145px;
+    
 
+ }
+}
+@media screen and (min-width: 1350px) {
+  
+}
+
+
+@media screen and (max-width: 360px) {
+}
 </style>
 

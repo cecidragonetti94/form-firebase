@@ -68,17 +68,18 @@ export default {
 
 <style>
 .input-name {
-  min-width: 485px;
-  max-height: 32px;
-  border-radius: 5px;
+min-width: 450px;
+    max-height: 40px;
+    border-radius: 10px;
+  border: 3px solid #fbc2eb;
   color: #2c3e50;
-  border: 1px solid #2c3e50;
+;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   font-size: 15px;
   margin-top: 30px;
 }
 .input-name:hover {
-  background-color: #eff4f8;
+  background-color: #a6c1ee;
 }
 .formCheck {
   display: flex;
@@ -121,11 +122,11 @@ export default {
   height: 30px;
   border-radius: 5px;
   font-size: 20px;
-  border: 1px solid #2c3e50;
+  border: 3px solid #a6c1ee;
 }
 
 .button-send:hover {
-  background-color: #2c3e50;
+  background-color: #fbc2eb;
   color: white;
 }
 

@@ -61,7 +61,7 @@ font-family: 'Ubuntu', sans-serif;
  }
  @media screen and (min-width: 1650px){
 .container {
-max-width: 1678px;
+ width: 1678px;
   max-height:914px;
     display: flex;
     justify-content: space-between;

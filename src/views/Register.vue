@@ -61,7 +61,7 @@ methods: {
   justify-content: space-evenly;
   min-width: 900px;
   align-items: center;
-  max-height: auto;
+
   background-color: snow;
   border-radius: 20px;
    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
@@ -109,5 +109,32 @@ methods: {
      max-height: 20px;
     font-size: 30px;
     color: #d14e4e;
+}
+@media screen and (min-width :360px) {
+  form {
+ 
+  min-width: 360px;
+}
+
+}
+@media screen and (min-width :1650px) {
+ form {
+margin-right: 200px;
+}
+
+}
+@media screen and (min-width :1350px) {
+  form {
+  
+  width: 700px;
+  margin-left: 232px;
+  margin-bottom: 32px;
+}
+.alert-register{
+     max-height: 20px;
+    font-size: 20px;
+    color: #d14e4e;
+}
+
 }
 </style>

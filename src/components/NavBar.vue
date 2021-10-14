@@ -4,7 +4,7 @@
     <router-link to="/register" v-if="!authenticatedUser">Register</router-link>
     <router-link to="/login" v-if="!authenticatedUser">Login</router-link>
     <router-link to="/form" v-if="authenticatedUser">Form</router-link>
-    <button v-if="authenticatedUser" @click="singOff">Sing off</button>
+    <button v-if="authenticatedUser" @click="singOff" class="sing-off">Sing off</button>
   </div>
 </template>
 
@@ -25,7 +25,7 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
 
 .navBar {
-  padding: 30px;
+ 
   background: linear-gradient(
       to bottom,
       rgba(255, 255, 255, 0.15) 0%,
@@ -55,19 +55,35 @@ export default {
 .navBar a.router-link-exact-active {
   color:#a6c1ee
 }
+.sing-off{
+  background-color: #fbc2eb;
+  border-radius: 5px;
+  width: 80px;
+  height: 40px;
+  font-weight: bold;
+  color:white;
+  border: none;
+  
+}
+.sing-off:hover{
+  color:#a6c1ee;
+}
+@media screen and (min-width: 1680px) {
+  .navBar {
+    min-height: 50px;
+    min-width: 1950px;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
 @media screen and (min-width: 1350px) {
   .navBar {
     max-height: 25px;
     max-width: 1340px;
+    
   }
 }
-@media screen and (min-width: 1650px) {
-  .navBar {
-    padding: 30px;
-    max-height: 30px;
-     min-width: 1623px;
-  }
-}
+
 
 @media screen and (max-width: 360px) {
   .navBar {

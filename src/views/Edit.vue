@@ -40,19 +40,18 @@ export default {
   -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   min-height: auto;
   box-sizing: border-box;
-  margin: 100px 460px ;
+  margin:100px 300px ;
 }
 .span-name{
   font-weight: lighter;
 }
 .container-h2{
 
-  background-color: #42b983;
-    max-width: 30%;
+  background-color: #fbc2eb;
+    max-height: 70px;
+        min-width: 424px;
     display: flex;
     justify-content: center;
-    margin-left: 600px;
-    height: 80px;
     border-radius: 20px;
     align-items: center;
  box-shadow: -9px -7px 5px 0px rgba(131, 129, 129, 0.75);
