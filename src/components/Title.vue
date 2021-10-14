@@ -11,8 +11,13 @@ export default {
 </script>
 
 <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+
 h1{
     font-size: 50px;
-    color: #2c3e50;
+    color: #615f5f;
+    font-family: 'Bungee Shade', cursive;
+    max-height: 166px;
 }
 </style>

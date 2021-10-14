@@ -26,36 +26,47 @@ export default {
 </script>
 
 <style >
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
   height: 100%;
   
 }
-
-.container {
-
-  
-}
- @media screen and (max-width: 360px){
- *{
-   width: 100%;
-  padding:0px;
-  margin:0px;
-} 
-.container {
-  display: flex;
-  flex-direction: column;
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+.container{
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+   color: #726f6f;
+font-family: 'Ubuntu', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+   display: flex;
+  flex-direction: column;
   text-align: center;
-  color: #2c3e50;
   justify-content: space-between;
- 
-  background-color: rgb(143, 135, 135);
+}
+@media screen and (max-width: 360px){
+.container {
+    min-height: 667px;
+    min-width: 393px;
+}
 }
 
+ @media screen and (min-width: 1350px){
+.container {
+   max-height: 591px;
+}
  }
-
+ @media screen and (min-width: 1650px){
+.container {
+max-width: 1678px;
+  max-height:914px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+ }
 </style>
