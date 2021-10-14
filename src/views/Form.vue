@@ -101,7 +101,12 @@ form {
  }
 }
 @media screen and (min-width: 1350px) {
-  
+  .container-form{
+   height: auto;
+   max-width: 900px;
+   margin-left: 250px;
+  }
+
 }
 
 

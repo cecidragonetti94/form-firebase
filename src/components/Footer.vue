@@ -43,10 +43,11 @@ min-width: 1675px;
 }
 }
 
-@media screen and (max-width:1350px){
+@media screen and (min-width:1350px){
 
 footer{
  max-height: 30px;
+ min-width: 1350px;
 }
 }
 </style>

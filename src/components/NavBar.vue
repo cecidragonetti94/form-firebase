@@ -39,7 +39,7 @@ export default {
       #989898;
   background-blend-mode: multiply, multiply;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   box-shadow: 2px 8px 5px 0px rgba(159, 148, 148, 0.75);
   -webkit-box-shadow: 2px 8px 5px 0px rgba(159, 148, 148, 0.75);
   -moz-box-shadow: 2px 8px 5px 0px rgba(159, 148, 148, 0.75);
@@ -72,14 +72,14 @@ export default {
   .navBar {
     min-height: 50px;
     min-width: 1950px;
-    justify-content: space-evenly;
+  
     align-items: center;
   }
 }
 @media screen and (min-width: 1350px) {
   .navBar {
-    max-height: 25px;
-    max-width: 1340px;
+    max-height: 40px;
+    min-width: 1350px;
     
   }
 }
